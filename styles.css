@@ -1,12 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 html{
-    font-family: 'Gloock', serif;
-    background: rgb(253, 254, 246);
+    font-family: 'Hind Vadodara', serif;
+    background: f2f2f2;
 }
 
 .container {
-    display: flex; /* or inline-flex */
-    justify-content: center;
+    display: inline; /* or inline-flex */
+    justify-content: space-evenly;
    
+  }
+img{
+    background-color:black;
+    width: 10%
+
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: black;
+    color: #ddd;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
   }
