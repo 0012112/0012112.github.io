@@ -6,22 +6,26 @@ html{
 }
 
 .container {
-    display: inline; /* or inline-flex */
+    display: flex; /* or inline-flex */
+    align-items: center;
     justify-content: space-evenly;
    
-  }
-img{
-    background-color:black;
-    width: 10%
+}
+
+.img_container{
+    display: flex; /* or inline-flex */
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 /* The navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #f2f2f2;
-    position: fixed; /* Set the navbar to fixed position */
+    position: sticky; /* Set the navbar to sticky position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    /* height:50px */
   }
   
   /* Links inside the navbar */
@@ -39,8 +43,25 @@ img{
     background: black;
     color: #ddd;
   }
-  
-  /* Main content */
-  .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-  }
+
+.descriptions{
+    width:100%;
+    margin: 0 auto;
+    margin-top:75px;
+    height:250px;
+    border-width:thick
+}
+.description1, .description2, .description3,.description4{
+    float:left;
+    border-width:10px;
+    width:25%;
+}
+
+.box{
+    height: 150px;
+    background-color: white;
+    border-width:10px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+}
