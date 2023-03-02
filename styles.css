@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
 
 html{
-    font-family: 'Hind Vadodara', serif;
-    background: f2f2f2;
+    background: #f5f5f5;
 }
 
 .container {
     display: flex; /* or inline-flex */
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Hind Vadodara', serif;
    
 }
 
@@ -21,7 +25,7 @@ html{
 /* The navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #f2f2f2;
+    background-color: #bebebe;
     position: sticky; /* Set the navbar to sticky position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -45,23 +49,26 @@ html{
   }
 
 .descriptions{
-    width:100%;
-    margin: 0 auto;
-    margin-top:75px;
-    height:250px;
-    border-width:thick
+  width:100%;
+  margin: 0 auto;
+  margin-top:75px;
+  height:250px;
+    
 }
-.description1, .description2, .description3,.description4{
-    float:left;
-    border-width:10px;
-    width:25%;
+.title{
+  font-family:'Libre Franklin', serif;
+  font-size:30px;
+  width:25%;
+  height: 150px;
+  width: 300px;
 }
-
-.box{
-    height: 150px;
-    background-color: white;
-    border-width:10px;
-    -moz-box-shadow: 0 0 10px #bdbdbd;
-    -webkit-box-shadow: 0 0 10px #bdbdbd;
-    box-shadow: 0 0 10px #bdbdbd;
+.description2, .description3,.description4{
+  font-family: 'Hind Vadodara', serif;
+  width:25%;
+  height: 150px;
+  width: 300px;
+  /* -moz-box-shadow: 0 0 10px #bdbdbd;
+  -webkit-box-shadow: 0 0 10px #bdbdbd;
+  box-shadow: 0 0 10px #bdbdbd; */
+    
 }
