@@ -12,3 +12,4 @@ My personal site.
 - [google search bar](https://codepen.io/eqbrown/pen/XWBvvjE) - used the css properties for the pill design
 - [navigate bar](https://www.w3schools.com/howto/howto_css_fixed_menu.asp) - used in css and html to create nav bar
 - [multiple divs in one row](https://stackoverflow.com/questions/16677539/how-to-have-multiple-divs-on-one-line-with-even-spacing) - used in css and html to create about me, contacts etc description
+- [interactive like button](https://www.w3schools.com/howto/howto_js_toggle_like.asp) - used in js and html to create a interactive like button for presented 3D models
