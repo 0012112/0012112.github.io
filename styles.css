@@ -90,7 +90,10 @@ html{
   font-family: 'Hind Vadodara', serif;
 }
 
-.fa:hover::after {
+.fa:hover {
+  color: red;
+}
+.icon_color{
   color: red;
 }
 

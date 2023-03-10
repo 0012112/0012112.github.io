@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
-    
+  <title>
+    My Models
+  </title>
   <head>
     <link rel="stylesheet" href="styles.css">
 
     <script src="https://kit.fontawesome.com/6e3dd1e121.js" crossorigin="anonymous"></script>
-
-    <script>
-      function myFunction(x) {
-      x.classList.toggle("fa-solid fa-heart");
-      }
-    </script>
   </head>
 
   <body>
     <div class="navbar">
       <a></a>
-      <a href="home.html"><b style="font-family: 'forum', serif;">Home</b></a>
+      <a href="index.html"><b style="font-family: 'forum', serif;">Home</b></a>
       <a href="games.html"><b style="font-family: 'forum', serif;">Games</b></a>
       <a href="contacts.html"><b style="font-family: 'forum', serif;">Contacts</b></a>
     </div>
@@ -126,17 +122,16 @@
 
       <hr style="height:1px;background-color:rgb(101, 101, 101)">
       <p>&#160;Types:</p>
-      <p style=color:grey>&#160;&#160;&#160;<i class="fa-sharp fa-regular fa-square"></i>&#160;&#160;Weapons </p>
-      <p style=color:grey>&#160;&#160;&#160;<i class="fa-sharp fa-regular fa-square"></i>&#160;&#160;Items </p>
-      <p style=color:grey>&#160;&#160;&#160;<i class="fa-sharp fa-regular fa-square"></i>&#160;&#160;Buildings </p>
+      <p style=color:grey>&#160;&#160;&#160;<i onclick="myFunction2(this)" class="fa-sharp fa-regular fa-square"></i>&#160;&#160;Weapons </p>
+      <p style=color:grey>&#160;&#160;&#160;<i onclick="myFunction2(this)" class="fa-sharp fa-regular fa-square"></i>&#160;&#160;Items </p>
+      <p style=color:grey>&#160;&#160;&#160;<i onclick="myFunction2(this)" class="fa-sharp fa-regular fa-square"></i>&#160;&#160;Buildings </p>
       <hr style="height:0px; width:93%; background-color:rgb(151, 151, 151)">
       <br>
 
 
       <hr style="height:1px;background-color:rgb(101, 101, 101)">
       <p>&#160;Price:</p>
-      <input type="range" min="2020" max="2023" value="2021">
-      <p>&#160;&#160;Value: <span id="demo"></span></p>
+      <input type="range" min="0" max="9999" value="3500">
       <hr style="height:0px; width:93%; background-color:rgb(151, 151, 151)">
       <br>
 
@@ -144,11 +139,24 @@
       <hr style="height:1px;background-color:rgb(101, 101, 101)">
       <p>&#160;Date:</p>
       <input type="range" min="2020" max="2023" value="2021">
-      <p>&#160;&#160;Value: <span id="demo"></span></p>
       <hr style="height:0px; width:93%; background-color:rgb(151, 151, 151)">
       <br>
       <hr style="height:1px;background-color:rgb(101, 101, 101)">
     </div>
+    <script>
+      function myFunction(x) {
+      x.classList.toggle("fa-regular")
+      x.classList.toggle("fa-solid")
+      x.classList.toggle("icon_color");
+      }
+    </script>
 
+    <script>
+      function myFunction2(x) {
+      x.classList.toggle("fa-sharp");
+      x.classList.toggle("fa-square");
+      x.classList.toggle("fa-square-check");
+      }
+    </script>
   </body>
 </html>
